@@ -38,7 +38,7 @@ for my $class (1..45) {
     close $fh;
 }
 
-open my $fh, ">", "classes.csv" or die "Can't open classes.csv for writing: $!";
+open my $fh, ">", "class.csv" or die "Can't open class.csv for writing: $!";
 print $fh "class,description\n";
 for my $class (sort {$a<=>$b} keys %class_descriptions) {
     $csv->combine($class, $class_descriptions{$class}) or die;

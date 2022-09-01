@@ -1,27 +1,3 @@
-20220218.2  2022-02-18  Released-By: PERLANCAR; Urgency: high
+20220831.0.0  2022-09-01  Released-By: PERLANCAR
 
-            - [bugfix] Fix 2021 data CSV format (escape character '\' was used
-              instead of the default "").
-
-
-20220218.1  2022-02-18  Released-By: PERLANCAR; Urgency: high
-
-            - [bugfix] Derp, forgot to use CSV for 2021 data.
-
-
-20220218.0  2022-02-18  Released-By: PERLANCAR; Urgency: medium; Broken: yes
-
-            - Add 2021 data. UPDATE: broken.
-
-            - [internal] Add dev script to update data.
-
-
-20210927.1  2021-10-05  Released-By: PERLANCAR; Urgency: medium
-
-	    - Rename module/dist
-	      TableDataBundle-{,Perl-}CPAN-Release-Static-Older.
-
-
-20210927.0  2021-09-27  Released-By: PERLANCAR
-
-            - First release.
+              - First release.
